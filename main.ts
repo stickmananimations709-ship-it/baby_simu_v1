@@ -175,8 +175,8 @@ input.onPinPressed(TouchPin.P1, function () {
     music.play(music.stringPlayable("B B A A A A G G ", 281), music.PlaybackMode.UntilDone)
     music.play(music.stringPlayable("D E F F F F D E ", 281), music.PlaybackMode.UntilDone)
     music.play(music.stringPlayable("F F F F D F B A ", 281), music.PlaybackMode.UntilDone)
-    music.play(music.stringPlayable("A G G B B C5 C5 C5 ", 281), music.PlaybackMode.UntilDone)
-    music.play(music.stringPlayable("C5 C5 C5 C5 - - - - ", 281), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("G G B B C5 C5 C5 C5 ", 281), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("C5 C5 - - - - - - ", 281), music.PlaybackMode.UntilDone)
 })
 input.onGesture(Gesture.Shake, function () {
     music.play(music.createSoundExpression(WaveShape.Square, 5000, 5000, 255, 255, 5000, SoundExpressionEffect.Vibrato, InterpolationCurve.Linear), music.PlaybackMode.LoopingInBackground)
